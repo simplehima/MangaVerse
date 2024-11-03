@@ -51,35 +51,34 @@ public class Signin extends javax.swing.JFrame {
         jLabel1.setBackground(new java.awt.Color(102, 102, 102));
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("MangaVerse");
+        jLabel1.setText("Library System");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(195, 195, 195)
+                .addGap(174, 174, 174)
                 .addComponent(jLabel1)
-                .addContainerGap(1958, Short.MAX_VALUE))
+                .addContainerGap(1940, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(15, 15, 15)
+                .addGap(14, 14, 14)
                 .addComponent(jLabel1)
-                .addContainerGap(18, Short.MAX_VALUE))
+                .addContainerGap(19, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel1);
         jPanel1.setBounds(0, 0, 2361, 81);
 
         passwordlb.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        passwordlb.setForeground(new java.awt.Color(255, 0, 0));
+        passwordlb.setForeground(new java.awt.Color(255, 255, 255));
         passwordlb.setText("Password");
         getContentPane().add(passwordlb);
-        passwordlb.setBounds(130, 270, 109, 32);
+        passwordlb.setBounds(120, 270, 109, 32);
 
-        jPasswordField1.setBackground(new java.awt.Color(255, 102, 102));
         jPasswordField1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         getContentPane().add(jPasswordField1);
         jPasswordField1.setBounds(250, 276, 180, 26);
@@ -94,7 +93,6 @@ public class Signin extends javax.swing.JFrame {
         getContentPane().add(loginbt);
         loginbt.setBounds(380, 330, 72, 23);
 
-        userjf.setBackground(new java.awt.Color(255, 102, 102));
         userjf.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         userjf.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -106,12 +104,12 @@ public class Signin extends javax.swing.JFrame {
 
         usernamelable.setBackground(new java.awt.Color(168, 168, 168));
         usernamelable.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        usernamelable.setForeground(new java.awt.Color(255, 0, 0));
+        usernamelable.setForeground(new java.awt.Color(255, 255, 255));
         usernamelable.setText("Username");
         getContentPane().add(usernamelable);
         usernamelable.setBounds(120, 190, 114, 32);
 
-        Image.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/bg.png"))); // NOI18N
+        Image.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/login-backgroud.jpg"))); // NOI18N
         getContentPane().add(Image);
         Image.setBounds(0, 70, 600, 390);
 
@@ -125,7 +123,7 @@ public class Signin extends javax.swing.JFrame {
     private void loginbtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loginbtActionPerformed
      String username = userjf.getText();
      String password = new String(jPasswordField1.getPassword());
-     if (username.equals("mido") && password.equals("123")){
+     if (username.equals("Mousa") && password.equals("123456")){
          JOptionPane.showMessageDialog(this,"Login successful!");
          HomePage homePage = new HomePage();
          homePage.setVisible(true);

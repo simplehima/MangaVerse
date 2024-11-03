@@ -4,6 +4,9 @@
  */
 package MangaStore;
 
+import java.awt.print.Printable;
+import java.awt.print.PrinterException;
+import java.awt.print.PrinterJob;
 import javax.swing.JOptionPane;
 
 /**
@@ -35,6 +38,11 @@ public class HomePage4 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        Removebtn = new javax.swing.JButton();
+        Removebtn1 = new javax.swing.JButton();
+        Removebtn2 = new javax.swing.JButton();
+        Removebtn3 = new javax.swing.JButton();
+        Removebtn4 = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
         username = new javax.swing.JLabel();
         profile = new javax.swing.JLabel();
@@ -60,7 +68,48 @@ public class HomePage4 extends javax.swing.JFrame {
         Price3 = new javax.swing.JLabel();
         Price4 = new javax.swing.JLabel();
         Price1 = new javax.swing.JLabel();
+        Backbtn = new javax.swing.JButton();
+        Removebtn5 = new javax.swing.JButton();
+        Removebtn6 = new javax.swing.JButton();
+        Removebtn7 = new javax.swing.JButton();
+        Removebtn8 = new javax.swing.JButton();
+        Removebtn9 = new javax.swing.JButton();
         BGImage = new javax.swing.JLabel();
+
+        Removebtn.setText("Remove");
+        Removebtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                RemovebtnActionPerformed(evt);
+            }
+        });
+
+        Removebtn1.setText("Remove");
+        Removebtn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Removebtn1ActionPerformed(evt);
+            }
+        });
+
+        Removebtn2.setText("Remove");
+        Removebtn2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Removebtn2ActionPerformed(evt);
+            }
+        });
+
+        Removebtn3.setText("Remove");
+        Removebtn3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Removebtn3ActionPerformed(evt);
+            }
+        });
+
+        Removebtn4.setText("Remove");
+        Removebtn4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Removebtn4ActionPerformed(evt);
+            }
+        });
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocation(new java.awt.Point(500, 170));
@@ -91,23 +140,23 @@ public class HomePage4 extends javax.swing.JFrame {
         getContentPane().add(titile);
         titile.setBounds(330, 10, 270, 48);
 
-        maga1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/1.png"))); // NOI18N
+        maga1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/17.png"))); // NOI18N
         getContentPane().add(maga1);
         maga1.setBounds(90, 70, 110, 160);
 
-        maga2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/2.png"))); // NOI18N
+        maga2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/18.png"))); // NOI18N
         getContentPane().add(maga2);
         maga2.setBounds(250, 70, 110, 160);
 
-        maga3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/3.png"))); // NOI18N
+        maga3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/19.png"))); // NOI18N
         getContentPane().add(maga3);
         maga3.setBounds(410, 70, 110, 160);
 
-        maga4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/4.png"))); // NOI18N
+        maga4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/20.png"))); // NOI18N
         getContentPane().add(maga4);
         maga4.setBounds(550, 70, 110, 160);
 
-        maga5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/5.png"))); // NOI18N
+        maga5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/9.png"))); // NOI18N
         getContentPane().add(maga5);
         maga5.setBounds(690, 70, 110, 160);
 
@@ -220,6 +269,60 @@ public class HomePage4 extends javax.swing.JFrame {
         getContentPane().add(Price1);
         Price1.setBounds(140, 250, 30, 20);
 
+        Backbtn.setText("Back");
+        Backbtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BackbtnActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Backbtn);
+        Backbtn.setBounds(620, 340, 72, 23);
+
+        Removebtn5.setText("Remove");
+        Removebtn5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Removebtn5ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Removebtn5);
+        Removebtn5.setBounds(100, 300, 90, 23);
+
+        Removebtn6.setText("Remove");
+        Removebtn6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Removebtn6ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Removebtn6);
+        Removebtn6.setBounds(260, 300, 90, 23);
+
+        Removebtn7.setText("Remove");
+        Removebtn7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Removebtn7ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Removebtn7);
+        Removebtn7.setBounds(420, 300, 90, 23);
+
+        Removebtn8.setText("Remove");
+        Removebtn8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Removebtn8ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Removebtn8);
+        Removebtn8.setBounds(560, 300, 90, 23);
+
+        Removebtn9.setText("Remove");
+        Removebtn9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Removebtn9ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Removebtn9);
+        Removebtn9.setBounds(700, 300, 90, 23);
+
         BGImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/background.jpeg"))); // NOI18N
         getContentPane().add(BGImage);
         BGImage.setBounds(0, 0, 980, 400);
@@ -236,36 +339,67 @@ public class HomePage4 extends javax.swing.JFrame {
     }//GEN-LAST:event_maga1btnActionPerformed
 
     private void checkoutbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_checkoutbtnActionPerformed
-                String message = "Items in your basket:\n";
-                
-                int t1 = itemCount1*10;
-                Double t2 = itemCount1*6.5;
-                int t3 = itemCount1*15;
-                int t4 = itemCount1*8;
-                int t5 = itemCount1*5;
-                Double Total = 0.0;
-                if (itemCount1 > 0) {
-                    message +=  itemCount1 + "x Naruto " + ",Item Total Cost: " + t1 +"$" + ":\n";
-                    Total += t1;
-                }
-                if (itemCount2 > 0) {
-                    message += itemCount2 + "x OnePunchMan " + ",Item Total Cost: " + t2 +"$" + ":\n";
-                    Total += t2;
-                }
-                if (itemCount3 > 0) {
-                    message += itemCount3 + "x HXH " + ",Item Total Cost: " + t3 +"$" + ":\n";
-                    Total += t3;
-                }
-                if (itemCount4 > 0) {
-                    message += itemCount4 + "x Berserk " + ",Item Total Cost: " + t4 +"$" + ":\n";
-                    Total += t4;
-                }
-                if (itemCount3 > 0) {
-                    message += itemCount5 +"x One Piece " + ",Item Total Cost: " + t5 + "$" + ":\n";
-                    Total += t5;
-                }
-                message += "Total Price: " + Total + "$";
-                JOptionPane.showMessageDialog(null, message);
+    final StringBuilder message = new StringBuilder("Items in your basket:\n");
+    
+    final int t1 = itemCount1 * 10;
+    final Double t2 = itemCount2 * 6.5;
+    final int t3 = itemCount3 * 15;
+    final int t4 = itemCount4 * 8;
+    final int t5 = itemCount5 * 5;
+    final Double[] total = {0.0}; // Use array to modify inside lambda
+
+    if (itemCount1 > 0) {
+        message.append(itemCount1).append("x Grimm, Item Total Cost: ").append(t1).append("$\n");
+        total[0] += t1;
+    }
+    if (itemCount2 > 0) {
+        message.append(itemCount2).append("x The Bass, Item Total Cost: ").append(t2).append("$\n");
+        total[0] += t2;
+    }
+    if (itemCount3 > 0) {
+        message.append(itemCount3).append("x Harry p1, Item Total Cost: ").append(t3).append("$\n");
+        total[0] += t3;
+    }
+    if (itemCount4 > 0) {
+        message.append(itemCount4).append("x Harry p2, Item Total Cost: ").append(t4).append("$\n");
+        total[0] += t4;
+    }
+    if (itemCount5 > 0) {
+        message.append(itemCount5).append("x ALone, Item Total Cost: ").append(t5).append("$\n");
+        total[0] += t5;
+    }
+    message.append("Total Price: ").append(total[0]).append("$");
+
+    // Display the message in a dialog
+    JOptionPane.showMessageDialog(null, message.toString());
+
+    // Print the message as a plain text document
+    PrinterJob job = PrinterJob.getPrinterJob();
+    job.setJobName("Receipt");
+
+    job.setPrintable((g, pf, page) -> {
+        if (page > 0) {
+            return Printable.NO_SUCH_PAGE;
+        }
+
+        int x = 100;
+        int y = 100;
+
+        for (String line : message.toString().split("\n")) {
+            g.drawString(line, x, y);
+            y += 15;
+        }
+
+        return Printable.PAGE_EXISTS;
+    });
+
+    if (job.printDialog()) {
+        try {
+            job.print();
+        } catch (PrinterException e) {
+            JOptionPane.showMessageDialog(null, "Print failed: " + e.getMessage());
+        }
+    }
     }//GEN-LAST:event_checkoutbtnActionPerformed
 
     private void maga2btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_maga2btnActionPerformed
@@ -287,6 +421,62 @@ public class HomePage4 extends javax.swing.JFrame {
                 itemCount5++;
                 updateBasketLabel();
     }//GEN-LAST:event_maga5btnActionPerformed
+
+    private void BackbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BackbtnActionPerformed
+        HomePage3 homePage3 = new HomePage3();
+        homePage3.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_BackbtnActionPerformed
+
+    private void RemovebtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RemovebtnActionPerformed
+        itemCount1--;
+        updateBasketLabel();
+    }//GEN-LAST:event_RemovebtnActionPerformed
+
+    private void Removebtn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Removebtn1ActionPerformed
+        itemCount2--;
+        updateBasketLabel();
+    }//GEN-LAST:event_Removebtn1ActionPerformed
+
+    private void Removebtn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Removebtn2ActionPerformed
+        itemCount3--;
+        updateBasketLabel();
+    }//GEN-LAST:event_Removebtn2ActionPerformed
+
+    private void Removebtn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Removebtn3ActionPerformed
+        itemCount4--;
+        updateBasketLabel();
+    }//GEN-LAST:event_Removebtn3ActionPerformed
+
+    private void Removebtn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Removebtn4ActionPerformed
+        itemCount5--;
+        updateBasketLabel();
+    }//GEN-LAST:event_Removebtn4ActionPerformed
+
+    private void Removebtn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Removebtn5ActionPerformed
+        itemCount1--;
+        updateBasketLabel();
+    }//GEN-LAST:event_Removebtn5ActionPerformed
+
+    private void Removebtn6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Removebtn6ActionPerformed
+        itemCount2--;
+        updateBasketLabel();
+    }//GEN-LAST:event_Removebtn6ActionPerformed
+
+    private void Removebtn7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Removebtn7ActionPerformed
+        itemCount3--;
+        updateBasketLabel();
+    }//GEN-LAST:event_Removebtn7ActionPerformed
+
+    private void Removebtn8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Removebtn8ActionPerformed
+        itemCount4--;
+        updateBasketLabel();
+    }//GEN-LAST:event_Removebtn8ActionPerformed
+
+    private void Removebtn9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Removebtn9ActionPerformed
+        itemCount5--;
+        updateBasketLabel();
+    }//GEN-LAST:event_Removebtn9ActionPerformed
 private void updateBasketLabel() {
     String basketText1 = "";
     String basketText2 = "";
@@ -295,19 +485,19 @@ private void updateBasketLabel() {
     String basketText5 = "";
     
     if (itemCount1 > 0) {
-        basketText1 += "Naruto: " + itemCount1;
+        basketText1 += "Grimm: " + itemCount1;
     }
     if (itemCount2 > 0) {
-        basketText2 += "OnePunchMan: " + itemCount2;
+        basketText2 += "The Bass: " + itemCount2;
     }
     if (itemCount3 > 0) {
-        basketText3 += "HXH: " + itemCount3;
+        basketText3 += "Harry p1: " + itemCount3;
     }
     if (itemCount4 > 0) {
-        basketText4 += "Berserk: " + itemCount4;
+        basketText4 += "Harry p2: " + itemCount4;
     }
     if (itemCount5 > 0) {
-        basketText5 += "One Piece: " + itemCount5;
+        basketText5 += "Alone: " + itemCount5;
     }    
     basketLabel1.setText(basketText1);
     basketLabel2.setText(basketText2);
@@ -355,11 +545,22 @@ private void updateBasketLabel() {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel BGImage;
+    private javax.swing.JButton Backbtn;
     private javax.swing.JLabel Price;
     private javax.swing.JLabel Price1;
     private javax.swing.JLabel Price2;
     private javax.swing.JLabel Price3;
     private javax.swing.JLabel Price4;
+    private javax.swing.JButton Removebtn;
+    private javax.swing.JButton Removebtn1;
+    private javax.swing.JButton Removebtn2;
+    private javax.swing.JButton Removebtn3;
+    private javax.swing.JButton Removebtn4;
+    private javax.swing.JButton Removebtn5;
+    private javax.swing.JButton Removebtn6;
+    private javax.swing.JButton Removebtn7;
+    private javax.swing.JButton Removebtn8;
+    private javax.swing.JButton Removebtn9;
     private javax.swing.JLabel basketLabel1;
     private javax.swing.JLabel basketLabel2;
     private javax.swing.JLabel basketLabel3;

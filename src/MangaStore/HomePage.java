@@ -1509,29 +1509,30 @@ public class HomePage extends javax.swing.JFrame {
     
     
     private void checkoutbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_checkoutbtnActionPerformed
-                final StringBuilder message = new StringBuilder("Items in your basket:\n");
+    
+  final StringBuilder message = new StringBuilder("Items in your basket:\n");
     
     final Double t1 = itemCount1 * 6.5;
     final int t2 = itemCount2 * 15;
     final int t3 = itemCount3 * 10;
     final int t4 = itemCount4 * 8;
     final int t5 = itemCount5 * 5;
-    final int t6 = itemCount5 * 10;
-    final Double t7 = itemCount5 * 6.5;
-    final int t8 = itemCount5 * 15;
-    final int t9 = itemCount5 * 8;
-    final int t10 = itemCount5 * 5;
-    final int t11 = itemCount5 * 10;
-    final Double t12 = itemCount5 * 6.5;
-    final int t13 = itemCount5 * 15;
-    final int t14 = itemCount5 * 8;
-    final int t15 = itemCount5 * 5;
-    final int t16 = itemCount5 * 10;
-    final Double t17 = itemCount5 * 6.5;
-    final int t18 = itemCount5 * 15;
-    final int t19 = itemCount5 * 8;
-    final int t20 = itemCount5 * 5;
-    //final int t21 = itemCount5 * 5;
+    final int t6 = itemCount6 * 10;
+    final Double t7 = itemCount7 * 6.5;
+    final int t8 = itemCount8 * 15;
+    final int t9 = itemCount9 * 8;
+    final int t10 = itemCount10 * 5;
+    final int t11 = itemCount11 * 10;
+    final Double t12 = itemCount12 * 6.5;
+    final int t13 = itemCount13 * 15;
+    final int t14 = itemCount14 * 8;
+    final int t15 = itemCount15 * 5;
+    final int t16 = itemCount16 * 10;
+    final Double t17 = itemCount17 * 6.5;
+    final int t18 = itemCount18 * 15;
+    final int t19 = itemCount19 * 8;
+    final int t20 = itemCount20 * 5;
+    //final int t21 = itemCount21 * 5;
     
     final Double[] total = {0.0}; // Use array to modify inside lambda
 
@@ -1556,65 +1557,70 @@ public class HomePage extends javax.swing.JFrame {
         total[0] += t5;
     }
     if (itemCount6 > 0) {
-        message.append(itemCount6).append("x Little, Item Total Cost: ").append(t1).append("$\n");
-        total[0] += t1;
+        message.append(itemCount6).append("x Little, Item Total Cost: ").append(t6).append("$\n");
+        total[0] += t6;
     }
     if (itemCount7 > 0) {
-        message.append(itemCount7).append("x The Great, Item Total Cost: ").append(t2).append("$\n");
-        total[0] += t2;
+        message.append(itemCount7).append("x The Great, Item Total Cost: ").append(t7).append("$\n");
+        total[0] += t7;
     }
     if (itemCount8 > 0) {
-        message.append(itemCount8).append("x Alone, Item Total Cost: ").append(t3).append("$\n");
-        total[0] += t3;
+        message.append(itemCount8).append("x Alone, Item Total Cost: ").append(t8).append("$\n");
+        total[0] += t8;
     }
     if (itemCount9 > 0) {
-        message.append(itemCount9).append("x Soul, Item Total Cost: ").append(t4).append("$\n");
-        total[0] += t4;
+        message.append(itemCount9).append("x Soul, Item Total Cost: ").append(t9).append("$\n");
+        total[0] += t9;
     }
     if (itemCount10 > 0) {
-        message.append(itemCount10).append("x A Million, Item Total Cost: ").append(t5).append("$\n");
-        total[0] += t5;
+        message.append(itemCount10).append("x A Million, Item Total Cost: ").append(t10).append("$\n");
+        total[0] += t10;
     }
     if (itemCount11 > 0) {
-        message.append(itemCount11).append("x Everything, Item Total Cost: ").append(t1).append("$\n");
-        total[0] += t1;
+        message.append(itemCount11).append("x Everything, Item Total Cost: ").append(t11).append("$\n");
+        total[0] += t11;
     }
     if (itemCount12 > 0) {
-        message.append(itemCount12).append("x The Gulver, Item Total Cost: ").append(t2).append("$\n");
-        total[0] += t2;
+        message.append(itemCount12).append("x The Gulver, Item Total Cost: ").append(t12).append("$\n");
+        total[0] += t12;
     }
     if (itemCount13 > 0) {
-        message.append(itemCount13).append("x In Woods, Item Total Cost: ").append(t3).append("$\n");
-        total[0] += t3;
+        message.append(itemCount13).append("x In Woods, Item Total Cost: ").append(t13).append("$\n");
+        total[0] += t13;
     }
     if (itemCount14 > 0) {
-        message.append(itemCount14).append("x Light, Item Total Cost: ").append(t4).append("$\n");
-        total[0] += t4;
+        message.append(itemCount14).append("x Light, Item Total Cost: ").append(t14).append("$\n");
+        total[0] += t14;
     }
     if (itemCount15 > 0) {
-        message.append(itemCount15).append("x Broken, Item Total Cost: ").append(t5).append("$\n");
-        total[0] += t5;
+        message.append(itemCount15).append("x Broken, Item Total Cost: ").append(t15).append("$\n");
+        total[0] += t15;
     }
     if (itemCount16 > 0) {
-        message.append(itemCount16).append("x Grimm, Item Total Cost: ").append(t1).append("$\n");
-        total[0] += t1;
+        message.append(itemCount16).append("x Grimm, Item Total Cost: ").append(t16).append("$\n");
+        total[0] += t16;
     }
     if (itemCount17 > 0) {
-        message.append(itemCount17).append("x The Bass, Item Total Cost: ").append(t2).append("$\n");
-        total[0] += t2;
+        message.append(itemCount17).append("x The Bass, Item Total Cost: ").append(t17).append("$\n");
+        total[0] += t17;
     }
     if (itemCount18 > 0) {
-        message.append(itemCount18).append("x Harry p1, Item Total Cost: ").append(t3).append("$\n");
-        total[0] += t3;
+        message.append(itemCount18).append("x Harry p1, Item Total Cost: ").append(t18).append("$\n");
+        total[0] += t18;
     }
     if (itemCount19 > 0) {
-        message.append(itemCount19).append("x Harry p2, Item Total Cost: ").append(t4).append("$\n");
-        total[0] += t4;
+        message.append(itemCount19).append("x Harry p2, Item Total Cost: ").append(t19).append("$\n");
+        total[0] += t19;
     }
     if (itemCount20 > 0) {
-        message.append(itemCount20).append("x ALone, Item Total Cost: ").append(t5).append("$\n");
-        total[0] += t5;
+        message.append(itemCount20).append("x ALone, Item Total Cost: ").append(t20).append("$\n");
+        total[0] += t20;
     }
+    
+   // if (itemCount21 > 0) {
+   // message.append(itemCount21).append("x Book Name, Item Total Cost: ").append(t21).append("$\n");
+   // total[0] += t21;
+   // }
     message.append("Total Price: ").append(total[0]).append("$");
 
     // Display the message in a dialog

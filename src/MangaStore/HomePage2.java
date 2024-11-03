@@ -41,18 +41,15 @@ public class HomePage2 extends javax.swing.JFrame {
         username = new javax.swing.JLabel();
         profile = new javax.swing.JLabel();
         titile = new javax.swing.JLabel();
-        maga1 = new javax.swing.JLabel();
         maga2 = new javax.swing.JLabel();
         maga3 = new javax.swing.JLabel();
         maga4 = new javax.swing.JLabel();
         maga5 = new javax.swing.JLabel();
-        maga1btn = new javax.swing.JButton();
         maga2btn = new javax.swing.JButton();
         maga3btn = new javax.swing.JButton();
         maga4btn = new javax.swing.JButton();
         maga5btn = new javax.swing.JButton();
         checkoutbtn = new javax.swing.JButton();
-        basketLabel1 = new javax.swing.JLabel();
         basketLabel2 = new javax.swing.JLabel();
         basketLabel3 = new javax.swing.JLabel();
         basketLabel4 = new javax.swing.JLabel();
@@ -61,15 +58,27 @@ public class HomePage2 extends javax.swing.JFrame {
         Price2 = new javax.swing.JLabel();
         Price3 = new javax.swing.JLabel();
         Price4 = new javax.swing.JLabel();
-        Price1 = new javax.swing.JLabel();
         Nextbtn = new javax.swing.JButton();
         Backbtn = new javax.swing.JButton();
-        Removebtn = new javax.swing.JButton();
         Removebtn1 = new javax.swing.JButton();
         Removebtn2 = new javax.swing.JButton();
         Removebtn3 = new javax.swing.JButton();
         Removebtn4 = new javax.swing.JButton();
-        BGImage = new javax.swing.JLabel();
+        jPanel2 = new javax.swing.JPanel();
+        maga6 = new javax.swing.JLabel();
+        Price5 = new javax.swing.JLabel();
+        maga5btn1 = new javax.swing.JButton();
+        Removebtn5 = new javax.swing.JButton();
+        jPanel3 = new javax.swing.JPanel();
+        jPanel4 = new javax.swing.JPanel();
+        maga1 = new javax.swing.JLabel();
+        maga1btn = new javax.swing.JButton();
+        basketLabel1 = new javax.swing.JLabel();
+        Price1 = new javax.swing.JLabel();
+        Removebtn = new javax.swing.JButton();
+        jPanel5 = new javax.swing.JPanel();
+        jPanel6 = new javax.swing.JPanel();
+        jPanel7 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocation(new java.awt.Point(500, 170));
@@ -100,10 +109,6 @@ public class HomePage2 extends javax.swing.JFrame {
         getContentPane().add(titile);
         titile.setBounds(330, 10, 270, 48);
 
-        maga1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/6.png"))); // NOI18N
-        getContentPane().add(maga1);
-        maga1.setBounds(90, 70, 110, 160);
-
         maga2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/8.png"))); // NOI18N
         getContentPane().add(maga2);
         maga2.setBounds(250, 70, 110, 160);
@@ -119,15 +124,6 @@ public class HomePage2 extends javax.swing.JFrame {
         maga5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/11.png"))); // NOI18N
         getContentPane().add(maga5);
         maga5.setBounds(690, 70, 110, 160);
-
-        maga1btn.setText("Add");
-        maga1btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                maga1btnActionPerformed(evt);
-            }
-        });
-        getContentPane().add(maga1btn);
-        maga1btn.setBounds(110, 270, 75, 23);
 
         maga2btn.setText("Add");
         maga2btn.addActionListener(new java.awt.event.ActionListener() {
@@ -174,60 +170,41 @@ public class HomePage2 extends javax.swing.JFrame {
         getContentPane().add(checkoutbtn);
         checkoutbtn.setBounds(710, 340, 100, 23);
 
-        basketLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        basketLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        getContentPane().add(basketLabel1);
-        basketLabel1.setBounds(100, 230, 100, 20);
-
         basketLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        basketLabel2.setForeground(new java.awt.Color(255, 255, 255));
         getContentPane().add(basketLabel2);
         basketLabel2.setBounds(260, 230, 130, 20);
 
         basketLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        basketLabel3.setForeground(new java.awt.Color(255, 255, 255));
         getContentPane().add(basketLabel3);
         basketLabel3.setBounds(420, 230, 130, 20);
 
         basketLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        basketLabel4.setForeground(new java.awt.Color(255, 255, 255));
         getContentPane().add(basketLabel4);
         basketLabel4.setBounds(560, 230, 100, 20);
 
         basketLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        basketLabel5.setForeground(new java.awt.Color(255, 255, 255));
         getContentPane().add(basketLabel5);
         basketLabel5.setBounds(700, 230, 100, 20);
 
         Price.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        Price.setForeground(new java.awt.Color(255, 255, 255));
         Price.setText("6.5$");
         getContentPane().add(Price);
         Price.setBounds(290, 250, 30, 16);
 
         Price2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        Price2.setForeground(new java.awt.Color(255, 255, 255));
         Price2.setText("15$");
         getContentPane().add(Price2);
         Price2.setBounds(450, 250, 30, 16);
 
         Price3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        Price3.setForeground(new java.awt.Color(255, 255, 255));
         Price3.setText("8$");
         getContentPane().add(Price3);
         Price3.setBounds(600, 250, 20, 16);
 
         Price4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        Price4.setForeground(new java.awt.Color(255, 255, 255));
         Price4.setText("5$");
         getContentPane().add(Price4);
         Price4.setBounds(740, 250, 20, 16);
-
-        Price1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        Price1.setForeground(new java.awt.Color(255, 255, 255));
-        Price1.setText("10$");
-        getContentPane().add(Price1);
-        Price1.setBounds(140, 250, 30, 20);
 
         Nextbtn.setText("Next");
         Nextbtn.addActionListener(new java.awt.event.ActionListener() {
@@ -246,15 +223,6 @@ public class HomePage2 extends javax.swing.JFrame {
         });
         getContentPane().add(Backbtn);
         Backbtn.setBounds(530, 340, 72, 23);
-
-        Removebtn.setText("Remove");
-        Removebtn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RemovebtnActionPerformed(evt);
-            }
-        });
-        getContentPane().add(Removebtn);
-        Removebtn.setBounds(100, 300, 90, 23);
 
         Removebtn1.setText("Remove");
         Removebtn1.addActionListener(new java.awt.event.ActionListener() {
@@ -292,9 +260,173 @@ public class HomePage2 extends javax.swing.JFrame {
         getContentPane().add(Removebtn4);
         Removebtn4.setBounds(700, 300, 90, 23);
 
-        BGImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/background.jpeg"))); // NOI18N
-        getContentPane().add(BGImage);
-        BGImage.setBounds(0, 0, 980, 400);
+        maga6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/5.png"))); // NOI18N
+
+        Price5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        Price5.setText("5$");
+
+        maga5btn1.setText("Add");
+        maga5btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                maga5btn1ActionPerformed(evt);
+            }
+        });
+
+        Removebtn5.setText("Remove");
+        Removebtn5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Removebtn5ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(maga6, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(Price5, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addComponent(maga5btn1))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
+                        .addComponent(Removebtn5, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap())
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addComponent(maga6, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(20, 20, 20)
+                .addComponent(Price5, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(4, 4, 4)
+                .addComponent(maga5btn1)
+                .addGap(7, 7, 7)
+                .addComponent(Removebtn5)
+                .addGap(0, 17, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(jPanel2);
+        jPanel2.setBounds(980, 10, 120, 270);
+
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 120, Short.MAX_VALUE)
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 260, Short.MAX_VALUE)
+        );
+
+        getContentPane().add(jPanel3);
+        jPanel3.setBounds(670, 450, 120, 260);
+
+        maga1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/6.png"))); // NOI18N
+
+        maga1btn.setText("Add");
+        maga1btn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                maga1btnActionPerformed(evt);
+            }
+        });
+
+        basketLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+
+        Price1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        Price1.setText("10$");
+
+        Removebtn.setText("Remove");
+        Removebtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                RemovebtnActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
+        jPanel4.setLayout(jPanel4Layout);
+        jPanel4Layout.setHorizontalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(maga1, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
+                        .addComponent(basketLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(Price1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addComponent(maga1btn, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
+                        .addComponent(Removebtn, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap())
+        );
+        jPanel4Layout.setVerticalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
+                .addGap(0, 7, Short.MAX_VALUE)
+                .addComponent(maga1, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(basketLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(Price1)
+                .addComponent(maga1btn)
+                .addGap(7, 7, 7)
+                .addComponent(Removebtn))
+        );
+
+        getContentPane().add(jPanel4);
+        jPanel4.setBounds(110, 450, 120, 260);
+
+        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
+        jPanel5.setLayout(jPanel5Layout);
+        jPanel5Layout.setHorizontalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 120, Short.MAX_VALUE)
+        );
+        jPanel5Layout.setVerticalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 260, Short.MAX_VALUE)
+        );
+
+        getContentPane().add(jPanel5);
+        jPanel5.setBounds(230, 460, 120, 260);
+
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 120, Short.MAX_VALUE)
+        );
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 260, Short.MAX_VALUE)
+        );
+
+        getContentPane().add(jPanel6);
+        jPanel6.setBounds(400, 460, 120, 260);
+
+        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
+        jPanel7.setLayout(jPanel7Layout);
+        jPanel7Layout.setHorizontalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 120, Short.MAX_VALUE)
+        );
+        jPanel7Layout.setVerticalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 260, Short.MAX_VALUE)
+        );
+
+        getContentPane().add(jPanel7);
+        jPanel7.setBounds(540, 450, 120, 260);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -427,6 +559,16 @@ public class HomePage2 extends javax.swing.JFrame {
         itemCount5--;
         updateBasketLabel();
     }//GEN-LAST:event_Removebtn4ActionPerformed
+
+    private void maga5btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_maga5btn1ActionPerformed
+        itemCount5++;
+        updateBasketLabel();
+    }//GEN-LAST:event_maga5btn1ActionPerformed
+
+    private void Removebtn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Removebtn5ActionPerformed
+        itemCount5--;
+        updateBasketLabel();
+    }//GEN-LAST:event_Removebtn5ActionPerformed
 private void updateBasketLabel() {
     String basketText1 = "";
     String basketText2 = "";
@@ -494,7 +636,6 @@ private void updateBasketLabel() {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel BGImage;
     private javax.swing.JButton Backbtn;
     private javax.swing.JButton Nextbtn;
     private javax.swing.JLabel Price;
@@ -502,11 +643,13 @@ private void updateBasketLabel() {
     private javax.swing.JLabel Price2;
     private javax.swing.JLabel Price3;
     private javax.swing.JLabel Price4;
+    private javax.swing.JLabel Price5;
     private javax.swing.JButton Removebtn;
     private javax.swing.JButton Removebtn1;
     private javax.swing.JButton Removebtn2;
     private javax.swing.JButton Removebtn3;
     private javax.swing.JButton Removebtn4;
+    private javax.swing.JButton Removebtn5;
     private javax.swing.JLabel basketLabel1;
     private javax.swing.JLabel basketLabel2;
     private javax.swing.JLabel basketLabel3;
@@ -514,6 +657,12 @@ private void updateBasketLabel() {
     private javax.swing.JLabel basketLabel5;
     private javax.swing.JButton checkoutbtn;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
     private javax.swing.JLabel maga1;
     private javax.swing.JButton maga1btn;
     private javax.swing.JLabel maga2;
@@ -524,6 +673,8 @@ private void updateBasketLabel() {
     private javax.swing.JButton maga4btn;
     private javax.swing.JLabel maga5;
     private javax.swing.JButton maga5btn;
+    private javax.swing.JButton maga5btn1;
+    private javax.swing.JLabel maga6;
     private javax.swing.JLabel profile;
     private javax.swing.JLabel titile;
     private javax.swing.JLabel username;

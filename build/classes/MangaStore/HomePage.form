@@ -31,7 +31,7 @@
     <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
     <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
     <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
-    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,11,-72,0,0,3,-87"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,115,0,0,2,-122"/>
   </AuxValues>
 
   <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
@@ -122,7 +122,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="70" y="70" width="520" height="1880"/>
+          <AbsoluteConstraints x="70" y="70" width="520" height="490"/>
         </Constraint>
       </Constraints>
 
@@ -144,29 +144,26 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="basketLabel2" alignment="1" min="-2" pref="100" max="-2" attributes="0"/>
-                                  <Group type="102" attributes="0">
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="maga2" min="-2" pref="110" max="-2" attributes="0"/>
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace min="40" pref="40" max="-2" attributes="0"/>
-                                              <Component id="Price" min="-2" pref="30" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
-                                              <Component id="maga2btn" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                      </Group>
-                                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
-                                  </Group>
+                              <Component id="maga2" min="-2" pref="110" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+                                  <Component id="maga1btn" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="Removebtn1" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
-                                      <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
-                                  </Group>
+                                  <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="basketLabel1" min="-2" pref="100" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                                  <Component id="Price" min="-2" pref="30" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="Removebtn1" min="-2" pref="90" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="103" groupAlignment="0" attributes="0">
@@ -214,15 +211,15 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
                           <Component id="maga2" min="-2" pref="160" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                          <Component id="basketLabel2" min="-2" pref="20" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                          <Component id="Price" min="-2" pref="16" max="-2" attributes="0"/>
-                          <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
-                          <Component id="maga2btn" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Removebtn1" min="-2" max="-2" attributes="0"/>
+                          <Component id="basketLabel1" min="-2" pref="20" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                          <Component id="Price" min="-2" pref="16" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                          <Component id="maga1btn" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
+                          <Component id="Removebtn1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
@@ -247,7 +244,7 @@
                                   <Component id="jPanel21" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace min="0" pref="12" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -260,15 +257,15 @@
                     </Property>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JButton" name="maga2btn">
+                <Component class="javax.swing.JButton" name="maga1btn">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Add"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="maga2btnActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="maga1btnActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JLabel" name="basketLabel2">
+                <Component class="javax.swing.JLabel" name="basketLabel1">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="12" style="1"/>
@@ -302,7 +299,7 @@
                                   <Component id="maga3" min="-2" pref="110" max="-2" attributes="0"/>
                                   <Group type="102" attributes="0">
                                       <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                                      <Component id="basketLabel3" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <Component id="basketLabel2" min="-2" pref="100" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" attributes="0">
                                       <EmptySpace min="40" pref="40" max="-2" attributes="0"/>
@@ -310,7 +307,7 @@
                                   </Group>
                                   <Group type="102" attributes="0">
                                       <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
-                                      <Component id="maga3btn" min="-2" max="-2" attributes="0"/>
+                                      <Component id="maga2btn" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" attributes="0">
                                       <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
@@ -327,11 +324,11 @@
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="maga3" min="-2" pref="160" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                              <Component id="basketLabel3" min="-2" pref="20" max="-2" attributes="0"/>
+                              <Component id="basketLabel2" min="-2" pref="20" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                               <Component id="Price2" min="-2" pref="16" max="-2" attributes="0"/>
                               <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
-                              <Component id="maga3btn" min="-2" max="-2" attributes="0"/>
+                              <Component id="maga2btn" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="7" pref="7" max="-2" attributes="0"/>
                               <Component id="Removebtn2" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
@@ -342,7 +339,7 @@
                     </DimensionLayout>
                   </Layout>
                   <SubComponents>
-                    <Component class="javax.swing.JLabel" name="basketLabel3">
+                    <Component class="javax.swing.JLabel" name="basketLabel2">
                       <Properties>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Segoe UI" size="12" style="1"/>
@@ -364,12 +361,12 @@
                         <Property name="text" type="java.lang.String" value="15$"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JButton" name="maga3btn">
+                    <Component class="javax.swing.JButton" name="maga2btn">
                       <Properties>
                         <Property name="text" type="java.lang.String" value="Add"/>
                       </Properties>
                       <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="maga3btnActionPerformed"/>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="maga2btnActionPerformed"/>
                       </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="Removebtn2">
@@ -405,7 +402,7 @@
                                               </Group>
                                               <Group type="102" attributes="0">
                                                   <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                                                  <Component id="Removebtn4" min="-2" pref="90" max="-2" attributes="0"/>
+                                                  <Component id="Removebtn5" min="-2" pref="90" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
                                       </Group>
@@ -438,7 +435,7 @@
                                   <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
                                   <Component id="maga5btn" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="7" pref="7" max="-2" attributes="0"/>
-                                  <Component id="Removebtn4" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Removebtn5" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jPanel10" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
@@ -481,12 +478,12 @@
                             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="maga5btnActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JButton" name="Removebtn4">
+                        <Component class="javax.swing.JButton" name="Removebtn5">
                           <Properties>
                             <Property name="text" type="java.lang.String" value="Remove"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Removebtn4ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Removebtn5ActionPerformed"/>
                           </Events>
                         </Component>
                         <Container class="javax.swing.JPanel" name="jPanel10">
@@ -770,15 +767,15 @@
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
-                                          <Component id="maga1btn" min="-2" pref="75" max="-2" attributes="0"/>
+                                          <Component id="maga3btn" min="-2" pref="75" max="-2" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                                          <Component id="Removebtn" min="-2" pref="90" max="-2" attributes="0"/>
+                                          <Component id="Removebtn3" min="-2" pref="90" max="-2" attributes="0"/>
                                       </Group>
                                       <Group type="102" attributes="0">
                                           <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
-                                          <Component id="basketLabel1" max="32767" attributes="0"/>
+                                          <Component id="basketLabel3" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <Component id="jPanel8" alignment="1" min="-2" max="-2" attributes="0"/>
@@ -793,13 +790,13 @@
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="maga1" min="-2" pref="160" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                              <Component id="basketLabel1" min="-2" pref="20" max="-2" attributes="0"/>
+                              <Component id="basketLabel3" min="-2" pref="20" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                               <Component id="Price1" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                              <Component id="maga1btn" min="-2" max="-2" attributes="0"/>
+                              <Component id="maga3btn" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="7" pref="7" max="-2" attributes="0"/>
-                              <Component id="Removebtn" min="-2" max="-2" attributes="0"/>
+                              <Component id="Removebtn3" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jPanel8" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="32767" attributes="0"/>
@@ -815,15 +812,15 @@
                         </Property>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JButton" name="maga1btn">
+                    <Component class="javax.swing.JButton" name="maga3btn">
                       <Properties>
                         <Property name="text" type="java.lang.String" value="Add"/>
                       </Properties>
                       <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="maga1btnActionPerformed"/>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="maga3btnActionPerformed"/>
                       </Events>
                     </Component>
-                    <Component class="javax.swing.JLabel" name="basketLabel1">
+                    <Component class="javax.swing.JLabel" name="basketLabel3">
                       <Properties>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Segoe UI" size="12" style="1"/>
@@ -838,12 +835,12 @@
                         <Property name="text" type="java.lang.String" value="10$"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JButton" name="Removebtn">
+                    <Component class="javax.swing.JButton" name="Removebtn3">
                       <Properties>
                         <Property name="text" type="java.lang.String" value="Remove"/>
                       </Properties>
                       <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RemovebtnActionPerformed"/>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Removebtn3ActionPerformed"/>
                       </Events>
                     </Component>
                     <Container class="javax.swing.JPanel" name="jPanel8">
@@ -869,7 +866,7 @@
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                                          <Component id="Removebtn5" min="-2" pref="90" max="-2" attributes="0"/>
+                                          <Component id="Removebtn6" min="-2" pref="90" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
@@ -888,7 +885,7 @@
                                   <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                                   <Component id="maga6btn" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="7" pref="7" max="-2" attributes="0"/>
-                                  <Component id="Removebtn5" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Removebtn6" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -924,12 +921,12 @@
                             <Property name="text" type="java.lang.String" value="10$"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JButton" name="Removebtn5">
+                        <Component class="javax.swing.JButton" name="Removebtn6">
                           <Properties>
                             <Property name="text" type="java.lang.String" value="Remove"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Removebtn5ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Removebtn6ActionPerformed"/>
                           </Events>
                         </Component>
                       </SubComponents>
@@ -958,7 +955,7 @@
                                   </Group>
                                   <Group type="102" attributes="0">
                                       <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                                      <Component id="Removebtn3" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <Component id="Removebtn4" min="-2" pref="90" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -1003,7 +1000,7 @@
                               <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
                               <Component id="maga4btn" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="7" pref="7" max="-2" attributes="0"/>
-                              <Component id="Removebtn3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Removebtn4" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jPanel9" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
@@ -1020,12 +1017,12 @@
                     </DimensionLayout>
                   </Layout>
                   <SubComponents>
-                    <Component class="javax.swing.JButton" name="Removebtn3">
+                    <Component class="javax.swing.JButton" name="Removebtn4">
                       <Properties>
                         <Property name="text" type="java.lang.String" value="Remove"/>
                       </Properties>
                       <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Removebtn3ActionPerformed"/>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Removebtn4ActionPerformed"/>
                       </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="maga4btn">
@@ -2029,5 +2026,18 @@
         </Container>
       </SubComponents>
     </Container>
+    <Component class="javax.swing.JButton" name="Clearbtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Clear"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ClearbtnActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="430" y="580" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
   </SubComponents>
 </Form>

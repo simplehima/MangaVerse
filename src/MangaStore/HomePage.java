@@ -64,22 +64,22 @@ public class HomePage extends javax.swing.JFrame {
         jPanel7 = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
         maga2 = new javax.swing.JLabel();
-        maga2btn = new javax.swing.JButton();
-        basketLabel2 = new javax.swing.JLabel();
+        maga1btn = new javax.swing.JButton();
+        basketLabel1 = new javax.swing.JLabel();
         Price = new javax.swing.JLabel();
         Removebtn1 = new javax.swing.JButton();
         jPanel5 = new javax.swing.JPanel();
-        basketLabel3 = new javax.swing.JLabel();
+        basketLabel2 = new javax.swing.JLabel();
         maga3 = new javax.swing.JLabel();
         Price2 = new javax.swing.JLabel();
-        maga3btn = new javax.swing.JButton();
+        maga2btn = new javax.swing.JButton();
         Removebtn2 = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         maga5 = new javax.swing.JLabel();
         basketLabel5 = new javax.swing.JLabel();
         Price4 = new javax.swing.JLabel();
         maga5btn = new javax.swing.JButton();
-        Removebtn4 = new javax.swing.JButton();
+        Removebtn5 = new javax.swing.JButton();
         jPanel10 = new javax.swing.JPanel();
         maga8btn = new javax.swing.JButton();
         basketLabel8 = new javax.swing.JLabel();
@@ -100,18 +100,18 @@ public class HomePage extends javax.swing.JFrame {
         Removebtn14 = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         maga1 = new javax.swing.JLabel();
-        maga1btn = new javax.swing.JButton();
-        basketLabel1 = new javax.swing.JLabel();
+        maga3btn = new javax.swing.JButton();
+        basketLabel3 = new javax.swing.JLabel();
         Price1 = new javax.swing.JLabel();
-        Removebtn = new javax.swing.JButton();
+        Removebtn3 = new javax.swing.JButton();
         jPanel8 = new javax.swing.JPanel();
         maga6 = new javax.swing.JLabel();
         maga6btn = new javax.swing.JButton();
         basketLabel6 = new javax.swing.JLabel();
         Price5 = new javax.swing.JLabel();
-        Removebtn5 = new javax.swing.JButton();
+        Removebtn6 = new javax.swing.JButton();
         jPanel6 = new javax.swing.JPanel();
-        Removebtn3 = new javax.swing.JButton();
+        Removebtn4 = new javax.swing.JButton();
         maga4btn = new javax.swing.JButton();
         Price3 = new javax.swing.JLabel();
         basketLabel4 = new javax.swing.JLabel();
@@ -182,6 +182,7 @@ public class HomePage extends javax.swing.JFrame {
         Price19 = new javax.swing.JLabel();
         maga20btn = new javax.swing.JButton();
         Removebtn20 = new javax.swing.JButton();
+        Clearbtn = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocation(new java.awt.Point(0, 0));
@@ -229,14 +230,14 @@ public class HomePage extends javax.swing.JFrame {
 
         maga2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/2.png"))); // NOI18N
 
-        maga2btn.setText("Add");
-        maga2btn.addActionListener(new java.awt.event.ActionListener() {
+        maga1btn.setText("Add");
+        maga1btn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                maga2btnActionPerformed(evt);
+                maga1btnActionPerformed(evt);
             }
         });
 
-        basketLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        basketLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
 
         Price.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         Price.setText("6.5$");
@@ -248,17 +249,17 @@ public class HomePage extends javax.swing.JFrame {
             }
         });
 
-        basketLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        basketLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
 
         maga3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/3.png"))); // NOI18N
 
         Price2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         Price2.setText("15$");
 
-        maga3btn.setText("Add");
-        maga3btn.addActionListener(new java.awt.event.ActionListener() {
+        maga2btn.setText("Add");
+        maga2btn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                maga3btnActionPerformed(evt);
+                maga2btnActionPerformed(evt);
             }
         });
 
@@ -283,10 +284,10 @@ public class HomePage extends javax.swing.JFrame {
             }
         });
 
-        Removebtn4.setText("Remove");
-        Removebtn4.addActionListener(new java.awt.event.ActionListener() {
+        Removebtn5.setText("Remove");
+        Removebtn5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Removebtn4ActionPerformed(evt);
+                Removebtn5ActionPerformed(evt);
             }
         });
 
@@ -483,7 +484,7 @@ public class HomePage extends javax.swing.JFrame {
                                 .addComponent(maga5btn))
                             .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addGap(10, 10, 10)
-                                .addComponent(Removebtn4, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addComponent(Removebtn5, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -507,7 +508,7 @@ public class HomePage extends javax.swing.JFrame {
                 .addGap(4, 4, 4)
                 .addComponent(maga5btn)
                 .addGap(7, 7, 7)
-                .addComponent(Removebtn4)
+                .addComponent(Removebtn5)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -527,13 +528,13 @@ public class HomePage extends javax.swing.JFrame {
                     .addComponent(maga3, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel5Layout.createSequentialGroup()
                         .addGap(10, 10, 10)
-                        .addComponent(basketLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(basketLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel5Layout.createSequentialGroup()
                         .addGap(40, 40, 40)
                         .addComponent(Price2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel5Layout.createSequentialGroup()
                         .addGap(20, 20, 20)
-                        .addComponent(maga3btn))
+                        .addComponent(maga2btn))
                     .addGroup(jPanel5Layout.createSequentialGroup()
                         .addGap(10, 10, 10)
                         .addComponent(Removebtn2, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -545,11 +546,11 @@ public class HomePage extends javax.swing.JFrame {
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addComponent(maga3, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(basketLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(basketLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(Price2, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(4, 4, 4)
-                .addComponent(maga3btn)
+                .addComponent(maga2btn)
                 .addGap(7, 7, 7)
                 .addComponent(Removebtn2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -559,22 +560,22 @@ public class HomePage extends javax.swing.JFrame {
 
         maga1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/1.png"))); // NOI18N
 
-        maga1btn.setText("Add");
-        maga1btn.addActionListener(new java.awt.event.ActionListener() {
+        maga3btn.setText("Add");
+        maga3btn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                maga1btnActionPerformed(evt);
+                maga3btnActionPerformed(evt);
             }
         });
 
-        basketLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        basketLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
 
         Price1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         Price1.setText("10$");
 
-        Removebtn.setText("Remove");
-        Removebtn.addActionListener(new java.awt.event.ActionListener() {
+        Removebtn3.setText("Remove");
+        Removebtn3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RemovebtnActionPerformed(evt);
+                Removebtn3ActionPerformed(evt);
             }
         });
 
@@ -592,10 +593,10 @@ public class HomePage extends javax.swing.JFrame {
         Price5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         Price5.setText("10$");
 
-        Removebtn5.setText("Remove");
-        Removebtn5.addActionListener(new java.awt.event.ActionListener() {
+        Removebtn6.setText("Remove");
+        Removebtn6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Removebtn5ActionPerformed(evt);
+                Removebtn6ActionPerformed(evt);
             }
         });
 
@@ -618,7 +619,7 @@ public class HomePage extends javax.swing.JFrame {
                         .addComponent(maga6btn, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel8Layout.createSequentialGroup()
                         .addGap(10, 10, 10)
-                        .addComponent(Removebtn5, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(Removebtn6, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
         jPanel8Layout.setVerticalGroup(
@@ -633,7 +634,7 @@ public class HomePage extends javax.swing.JFrame {
                 .addGap(0, 0, 0)
                 .addComponent(maga6btn)
                 .addGap(7, 7, 7)
-                .addComponent(Removebtn5))
+                .addComponent(Removebtn6))
         );
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -650,13 +651,13 @@ public class HomePage extends javax.swing.JFrame {
                             .addComponent(Price1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGroup(jPanel3Layout.createSequentialGroup()
                             .addGap(20, 20, 20)
-                            .addComponent(maga1btn, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(maga3btn, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGroup(jPanel3Layout.createSequentialGroup()
                             .addGap(10, 10, 10)
-                            .addComponent(Removebtn, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(Removebtn3, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGroup(jPanel3Layout.createSequentialGroup()
                             .addGap(6, 6, 6)
-                            .addComponent(basketLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                            .addComponent(basketLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addComponent(jPanel8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );
@@ -666,22 +667,22 @@ public class HomePage extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(maga1, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(basketLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(basketLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(Price1)
                 .addGap(0, 0, 0)
-                .addComponent(maga1btn)
+                .addComponent(maga3btn)
                 .addGap(7, 7, 7)
-                .addComponent(Removebtn)
+                .addComponent(Removebtn3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        Removebtn3.setText("Remove");
-        Removebtn3.addActionListener(new java.awt.event.ActionListener() {
+        Removebtn4.setText("Remove");
+        Removebtn4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Removebtn3ActionPerformed(evt);
+                Removebtn4ActionPerformed(evt);
             }
         });
 
@@ -1006,7 +1007,7 @@ public class HomePage extends javax.swing.JFrame {
                         .addComponent(maga4btn))
                     .addGroup(jPanel6Layout.createSequentialGroup()
                         .addGap(10, 10, 10)
-                        .addComponent(Removebtn3, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(Removebtn4, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(0, 0, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
@@ -1039,7 +1040,7 @@ public class HomePage extends javax.swing.JFrame {
                 .addGap(4, 4, 4)
                 .addComponent(maga4btn)
                 .addGap(7, 7, 7)
-                .addComponent(Removebtn3)
+                .addComponent(Removebtn4)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -1405,23 +1406,22 @@ public class HomePage extends javax.swing.JFrame {
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(basketLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGroup(jPanel4Layout.createSequentialGroup()
-                            .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(maga2, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGroup(jPanel4Layout.createSequentialGroup()
-                                    .addGap(40, 40, 40)
-                                    .addComponent(Price, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGroup(jPanel4Layout.createSequentialGroup()
-                                    .addGap(20, 20, 20)
-                                    .addComponent(maga2btn)))
-                            .addGap(28, 28, 28)))
+                    .addComponent(maga2, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addComponent(maga1btn))
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(Removebtn1, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(basketLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addGap(42, 42, 42)
+                        .addComponent(Price, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(Removebtn1, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -1454,15 +1454,15 @@ public class HomePage extends javax.swing.JFrame {
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addComponent(maga2, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(basketLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(Price, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(4, 4, 4)
-                .addComponent(maga2btn)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(Removebtn1)
+                .addComponent(basketLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(5, 5, 5)
+                .addComponent(Price, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(6, 6, 6)
+                .addComponent(maga1btn)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(Removebtn1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
             .addGroup(jPanel4Layout.createSequentialGroup()
@@ -1483,7 +1483,7 @@ public class HomePage extends javax.swing.JFrame {
                         .addComponent(jPanel18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jPanel21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(0, 12, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         jPanel7.add(jPanel4, new java.awt.GridBagConstraints());
@@ -1491,7 +1491,16 @@ public class HomePage extends javax.swing.JFrame {
         jScrollPane1.setViewportView(jPanel7);
 
         getContentPane().add(jScrollPane1);
-        jScrollPane1.setBounds(70, 70, 520, 1880);
+        jScrollPane1.setBounds(70, 70, 520, 490);
+
+        Clearbtn.setText("Clear");
+        Clearbtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ClearbtnActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Clearbtn);
+        Clearbtn.setBounds(430, 580, 72, 23);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -1502,40 +1511,40 @@ public class HomePage extends javax.swing.JFrame {
     private void checkoutbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_checkoutbtnActionPerformed
                 final StringBuilder message = new StringBuilder("Items in your basket:\n");
     
-    final int t1 = itemCount1 * 10;
-    final Double t2 = itemCount2 * 6.5;
-    final int t3 = itemCount3 * 15;
+    final Double t1 = itemCount1 * 6.5;
+    final int t2 = itemCount2 * 15;
+    final int t3 = itemCount3 * 10;
     final int t4 = itemCount4 * 8;
     final int t5 = itemCount5 * 5;
-    final int t6 = itemCount5 * 5;
-    final int t7 = itemCount5 * 5;
-    final int t8 = itemCount5 * 5;
-    final int t9 = itemCount5 * 5;
+    final int t6 = itemCount5 * 10;
+    final Double t7 = itemCount5 * 6.5;
+    final int t8 = itemCount5 * 15;
+    final int t9 = itemCount5 * 8;
     final int t10 = itemCount5 * 5;
-    final int t11 = itemCount5 * 5;
-    final int t12 = itemCount5 * 5;
-    final int t13 = itemCount5 * 5;
-    final int t14 = itemCount5 * 5;
+    final int t11 = itemCount5 * 10;
+    final Double t12 = itemCount5 * 6.5;
+    final int t13 = itemCount5 * 15;
+    final int t14 = itemCount5 * 8;
     final int t15 = itemCount5 * 5;
-    final int t16 = itemCount5 * 5;
-    final int t17 = itemCount5 * 5;
-    final int t18 = itemCount5 * 5;
-    final int t19 = itemCount5 * 5;
+    final int t16 = itemCount5 * 10;
+    final Double t17 = itemCount5 * 6.5;
+    final int t18 = itemCount5 * 15;
+    final int t19 = itemCount5 * 8;
     final int t20 = itemCount5 * 5;
     //final int t21 = itemCount5 * 5;
     
     final Double[] total = {0.0}; // Use array to modify inside lambda
 
     if (itemCount1 > 0) {
-        message.append(itemCount1).append("x Naruto, Item Total Cost: ").append(t1).append("$\n");
+        message.append(itemCount1).append("x One punch, Item Total Cost: ").append(t1).append("$\n");
         total[0] += t1;
     }
     if (itemCount2 > 0) {
-        message.append(itemCount2).append("x One punch, Item Total Cost: ").append(t2).append("$\n");
+        message.append(itemCount2).append("x HxH, Item Total Cost: ").append(t2).append("$\n");
         total[0] += t2;
     }
     if (itemCount3 > 0) {
-        message.append(itemCount3).append("x HxH, Item Total Cost: ").append(t3).append("$\n");
+        message.append(itemCount3).append("x Naruto, Item Total Cost: ").append(t3).append("$\n");
         total[0] += t3;
     }
     if (itemCount4 > 0) {
@@ -1675,30 +1684,30 @@ public class HomePage extends javax.swing.JFrame {
         updateBasketLabel();
     }//GEN-LAST:event_maga4btnActionPerformed
 
-    private void Removebtn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Removebtn3ActionPerformed
+    private void Removebtn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Removebtn4ActionPerformed
         itemCount4--;
         updateBasketLabel();
-    }//GEN-LAST:event_Removebtn3ActionPerformed
+    }//GEN-LAST:event_Removebtn4ActionPerformed
 
-    private void Removebtn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Removebtn5ActionPerformed
+    private void Removebtn6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Removebtn6ActionPerformed
         itemCount6--;
         updateBasketLabel();
-    }//GEN-LAST:event_Removebtn5ActionPerformed
+    }//GEN-LAST:event_Removebtn6ActionPerformed
 
     private void maga6btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_maga6btnActionPerformed
         itemCount6++;
         updateBasketLabel();
     }//GEN-LAST:event_maga6btnActionPerformed
 
-    private void RemovebtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RemovebtnActionPerformed
-        itemCount1--;
+    private void Removebtn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Removebtn3ActionPerformed
+        itemCount3--;
         updateBasketLabel();
-    }//GEN-LAST:event_RemovebtnActionPerformed
+    }//GEN-LAST:event_Removebtn3ActionPerformed
 
-    private void maga1btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_maga1btnActionPerformed
-        itemCount1++;
+    private void maga3btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_maga3btnActionPerformed
+        itemCount3++;
         updateBasketLabel();
-    }//GEN-LAST:event_maga1btnActionPerformed
+    }//GEN-LAST:event_maga3btnActionPerformed
 
     private void Removebtn8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Removebtn8ActionPerformed
         itemCount8--;
@@ -1710,10 +1719,10 @@ public class HomePage extends javax.swing.JFrame {
         updateBasketLabel();
     }//GEN-LAST:event_maga8btnActionPerformed
 
-    private void Removebtn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Removebtn4ActionPerformed
+    private void Removebtn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Removebtn5ActionPerformed
         itemCount5--;
         updateBasketLabel();
-    }//GEN-LAST:event_Removebtn4ActionPerformed
+    }//GEN-LAST:event_Removebtn5ActionPerformed
 
     private void maga5btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_maga5btnActionPerformed
         itemCount5++;
@@ -1721,24 +1730,24 @@ public class HomePage extends javax.swing.JFrame {
     }//GEN-LAST:event_maga5btnActionPerformed
 
     private void Removebtn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Removebtn2ActionPerformed
-        itemCount3--;
-        updateBasketLabel();
-    }//GEN-LAST:event_Removebtn2ActionPerformed
-
-    private void maga3btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_maga3btnActionPerformed
-        itemCount3++;
-        updateBasketLabel();
-    }//GEN-LAST:event_maga3btnActionPerformed
-
-    private void Removebtn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Removebtn1ActionPerformed
         itemCount2--;
         updateBasketLabel();
-    }//GEN-LAST:event_Removebtn1ActionPerformed
+    }//GEN-LAST:event_Removebtn2ActionPerformed
 
     private void maga2btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_maga2btnActionPerformed
         itemCount2++;
         updateBasketLabel();
     }//GEN-LAST:event_maga2btnActionPerformed
+
+    private void Removebtn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Removebtn1ActionPerformed
+        itemCount1--;
+        updateBasketLabel();
+    }//GEN-LAST:event_Removebtn1ActionPerformed
+
+    private void maga1btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_maga1btnActionPerformed
+        itemCount1++;
+        updateBasketLabel();
+    }//GEN-LAST:event_maga1btnActionPerformed
 
     private void maga14btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_maga14btnActionPerformed
         itemCount14++;
@@ -1839,6 +1848,30 @@ public class HomePage extends javax.swing.JFrame {
         itemCount20--;
         updateBasketLabel();
     }//GEN-LAST:event_Removebtn20ActionPerformed
+
+    private void ClearbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ClearbtnActionPerformed
+    itemCount1 = 0; // Count for item 1
+    itemCount2 = 0; // Count for item 2
+    itemCount3 = 0; // Count for item 3
+    itemCount4 = 0; // Count for item 4
+    itemCount5 = 0; // Count for item 5
+    itemCount6 = 0; // Count for item 6
+    itemCount7 = 0; // Count for item 7
+    itemCount8 = 0; // Count for item 8
+    itemCount9 = 0; // Count for item 9
+    itemCount10 = 0; // Count for item 10
+    itemCount11 = 0; // Count for item 11
+    itemCount12 = 0; // Count for item 12
+    itemCount13 = 0; // Count for item 13
+    itemCount14 = 0; // Count for item 14
+    itemCount15 = 0; // Count for item 15
+    itemCount16 = 0; // Count for item 16
+    itemCount17 = 0; // Count for item 17
+    itemCount18 = 0; // Count for item 18
+    itemCount19 = 0; // Count for item 19
+    itemCount20 = 0; // Count for item 20
+    updateBasketLabel();
+    }//GEN-LAST:event_ClearbtnActionPerformed
 private void updateBasketLabel() {
     String basketText1 = "";
     String basketText2 = "";
@@ -1860,16 +1893,16 @@ private void updateBasketLabel() {
     String basketText18 = "";
     String basketText19 = "";
     String basketText20 = "";
-    String basketText21 = "";
+    //String basketText21 = "";
     
     if (itemCount1 > 0) {
-        basketText1 += "Naruto: " + itemCount1;
+        basketText1 += "OnePunchMan: " + itemCount1;
     }
     if (itemCount2 > 0) {
-        basketText2 += "OnePunchMan: " + itemCount2;
+        basketText2 += "HXH: " + itemCount2;
     }
     if (itemCount3 > 0) {
-        basketText3 += "HXH: " + itemCount3;
+        basketText3 += "Naruto: " + itemCount3;
     }
     if (itemCount4 > 0) {
         basketText4 += "Berserk: " + itemCount4;
@@ -1927,15 +1960,15 @@ private void updateBasketLabel() {
     basketLabel3.setText(basketText3);
     basketLabel4.setText(basketText4);
     basketLabel5.setText(basketText5);
-    basketLabel6.setText(basketText1);
+    basketLabel6.setText(basketText6);
     basketLabel7.setText(basketText7);
     basketLabel8.setText(basketText8);
     basketLabel9.setText(basketText9);
     basketLabel10.setText(basketText10);
-    basketLabel14.setText(basketText11);
-    basketLabel11.setText(basketText12);
-    basketLabel12.setText(basketText13);
-    basketLabel13.setText(basketText14);
+    basketLabel11.setText(basketText11);
+    basketLabel12.setText(basketText12);
+    basketLabel13.setText(basketText13);
+    basketLabel14.setText(basketText14);
     basketLabel15.setText(basketText15);
     basketLabel16.setText(basketText16);
     basketLabel17.setText(basketText17);
@@ -1981,6 +2014,7 @@ private void updateBasketLabel() {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton Clearbtn;
     private javax.swing.JLabel Price;
     private javax.swing.JLabel Price1;
     private javax.swing.JLabel Price10;
@@ -2001,7 +2035,6 @@ private void updateBasketLabel() {
     private javax.swing.JLabel Price7;
     private javax.swing.JLabel Price8;
     private javax.swing.JLabel Price9;
-    private javax.swing.JButton Removebtn;
     private javax.swing.JButton Removebtn1;
     private javax.swing.JButton Removebtn10;
     private javax.swing.JButton Removebtn11;
@@ -2018,6 +2051,7 @@ private void updateBasketLabel() {
     private javax.swing.JButton Removebtn3;
     private javax.swing.JButton Removebtn4;
     private javax.swing.JButton Removebtn5;
+    private javax.swing.JButton Removebtn6;
     private javax.swing.JButton Removebtn7;
     private javax.swing.JButton Removebtn8;
     private javax.swing.JButton Removebtn9;

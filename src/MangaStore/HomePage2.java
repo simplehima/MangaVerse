@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
  *
  * @author ebrah
  */
-public class HomePage extends javax.swing.JFrame {
+public class HomePage2 extends javax.swing.JFrame {
     
     private int itemCount1 = 0; // Count for item 1
     private int itemCount2 = 0; // Count for item 2
@@ -22,7 +22,7 @@ public class HomePage extends javax.swing.JFrame {
     /**
      * Creates new form HomaPage
      */
-    public HomePage() {
+    public HomePage2() {
         initComponents();
     }
 
@@ -91,23 +91,23 @@ public class HomePage extends javax.swing.JFrame {
         getContentPane().add(titile);
         titile.setBounds(330, 10, 270, 48);
 
-        maga1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/1.png"))); // NOI18N
+        maga1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/6.png"))); // NOI18N
         getContentPane().add(maga1);
         maga1.setBounds(90, 70, 110, 160);
 
-        maga2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/2.png"))); // NOI18N
+        maga2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/8.png"))); // NOI18N
         getContentPane().add(maga2);
         maga2.setBounds(250, 70, 110, 160);
 
-        maga3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/3.png"))); // NOI18N
+        maga3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/9.png"))); // NOI18N
         getContentPane().add(maga3);
         maga3.setBounds(410, 70, 110, 160);
 
-        maga4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/4.png"))); // NOI18N
+        maga4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/10.png"))); // NOI18N
         getContentPane().add(maga4);
         maga4.setBounds(550, 70, 110, 160);
 
-        maga5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/5.png"))); // NOI18N
+        maga5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MangaStore/Store/11.png"))); // NOI18N
         getContentPane().add(maga5);
         maga5.setBounds(690, 70, 110, 160);
 
@@ -245,23 +245,23 @@ public class HomePage extends javax.swing.JFrame {
                 int t5 = itemCount1*5;
                 Double Total = 0.0;
                 if (itemCount1 > 0) {
-                    message +=  itemCount1 + "x Naruto " + ",Item Total Cost: " + t1 +"$" + ":\n";
+                    message +=  itemCount1 + "x Little " + ",Item Total Cost: " + t1 +"$" + ":\n";
                     Total += t1;
                 }
                 if (itemCount2 > 0) {
-                    message += itemCount2 + "x OnePunchMan " + ",Item Total Cost: " + t2 +"$" + ":\n";
+                    message += itemCount2 + "x The Great " + ",Item Total Cost: " + t2 +"$" + ":\n";
                     Total += t2;
                 }
                 if (itemCount3 > 0) {
-                    message += itemCount3 + "x HXH " + ",Item Total Cost: " + t3 +"$" + ":\n";
+                    message += itemCount3 + "x Alone " + ",Item Total Cost: " + t3 +"$" + ":\n";
                     Total += t3;
                 }
                 if (itemCount4 > 0) {
-                    message += itemCount4 + "x Berserk " + ",Item Total Cost: " + t4 +"$" + ":\n";
+                    message += itemCount4 + "x Soul " + ",Item Total Cost: " + t4 +"$" + ":\n";
                     Total += t4;
                 }
                 if (itemCount3 > 0) {
-                    message += itemCount5 +"x One Piece " + ",Item Total Cost: " + t5 + "$" + ":\n";
+                    message += itemCount5 +"x A Million " + ",Item Total Cost: " + t5 + "$" + ":\n";
                     Total += t5;
                 }
                 message += "Total Price: " + Total + "$";
@@ -295,19 +295,19 @@ private void updateBasketLabel() {
     String basketText5 = "";
     
     if (itemCount1 > 0) {
-        basketText1 += "Naruto: " + itemCount1;
+        basketText1 += "Little: " + itemCount1;
     }
     if (itemCount2 > 0) {
-        basketText2 += "OnePunchMan: " + itemCount2;
+        basketText2 += "The Great: " + itemCount2;
     }
     if (itemCount3 > 0) {
-        basketText3 += "HXH: " + itemCount3;
+        basketText3 += "Alone: " + itemCount3;
     }
     if (itemCount4 > 0) {
-        basketText4 += "Berserk: " + itemCount4;
+        basketText4 += "Soul: " + itemCount4;
     }
     if (itemCount5 > 0) {
-        basketText5 += "One Piece: " + itemCount5;
+        basketText5 += "A Million: " + itemCount5;
     }    
     basketLabel1.setText(basketText1);
     basketLabel2.setText(basketText2);
@@ -332,21 +332,23 @@ private void updateBasketLabel() {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(HomePage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(HomePage2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(HomePage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(HomePage2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(HomePage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(HomePage2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(HomePage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(HomePage2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new HomePage().setVisible(true);
+                new HomePage2().setVisible(true);
             }
         });
     }

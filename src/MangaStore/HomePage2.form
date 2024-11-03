@@ -100,7 +100,7 @@
     <Component class="javax.swing.JLabel" name="maga1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/MangaStore/Store/1.png"/>
+          <Image iconType="3" name="/MangaStore/Store/6.png"/>
         </Property>
       </Properties>
       <Constraints>
@@ -112,7 +112,7 @@
     <Component class="javax.swing.JLabel" name="maga2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/MangaStore/Store/2.png"/>
+          <Image iconType="3" name="/MangaStore/Store/8.png"/>
         </Property>
       </Properties>
       <Constraints>
@@ -124,7 +124,7 @@
     <Component class="javax.swing.JLabel" name="maga3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/MangaStore/Store/3.png"/>
+          <Image iconType="3" name="/MangaStore/Store/9.png"/>
         </Property>
       </Properties>
       <Constraints>
@@ -136,7 +136,7 @@
     <Component class="javax.swing.JLabel" name="maga4">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/MangaStore/Store/4.png"/>
+          <Image iconType="3" name="/MangaStore/Store/10.png"/>
         </Property>
       </Properties>
       <Constraints>
@@ -148,7 +148,7 @@
     <Component class="javax.swing.JLabel" name="maga5">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/MangaStore/Store/5.png"/>
+          <Image iconType="3" name="/MangaStore/Store/11.png"/>
         </Property>
       </Properties>
       <Constraints>
